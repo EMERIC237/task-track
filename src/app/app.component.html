@@ -1,1 +1,7 @@
-<router-outlet></router-outlet>
+<div class="flex h-screen">
+    <app-left-bar class="w-64 bg-gray-800 text-white p-4"/>
+    <div class="flex flex-col flex-grow">
+        <app-top-bar class="bg-gray-200 p-4"/>
+        <router-outlet class="flex-grow p-4 overflow-auto"/>
+    </div>
+</div>
